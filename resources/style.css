@@ -46,7 +46,7 @@ header {
 /* Mission */
 
 
-#mission {
+.mission {
   display: flex;
   height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -55,12 +55,24 @@ header {
   align-items: center;
   justify-content: center;
 }
-#mission .content {
+.mission .content {
   display: flex;
   background-color: black;
-  height: 100px;
   width: 1200px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.mission .content h4 {
+  margin: 10px 10px;
+}
+
+.mission .content h2 {
+  margin: 10px 10px;
+
+.featuredtea {
+  align-items: flex-end;
+}
+
 }
